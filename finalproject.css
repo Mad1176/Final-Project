@@ -1,0 +1,73 @@
+/* background color, text color, and margin of body*/
+body {background-color: #a3a3c2; 
+    color: #000; 
+    margin: 100px 180px 180px  180px ; 
+    line-height: 150%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;}
+
+/* margin, background color, text color and height of content area*/
+h1, h2 {background-color: #d8aded; 
+    color: #000; 
+    height: 2em; 
+    width: 40%; 
+    margin: 2% 10% 2% 10%;
+    z-index: 11;
+    }
+
+/* float for h1 and h2 with the class "index"*/
+h1.index, h2.index {float: left}
+
+/* background color for WelcomeP*/
+#WelcomeP {background-color: #e86033; 
+    margin-left: 10px; 
+    margin-right: 10px; }
+
+/*border for WelcomeP*/
+#WelcomeP {border: solid #e86033 3px ;}
+
+/*padding, width and height of content area, and background color of anything with the menu class*/
+.menu{  
+    height: 3em; 
+    background-color: #ded009; 
+    padding: 15px 0 15px 0;
+    position: fixed; right: auto; top: -10px;
+    z-index: 5;
+ }
+
+/* width and padding of any paragraph with the "moody" class*/
+p.moody{width: 80%; 
+    padding: 20px 20px 20px 20px;}
+
+/*border for any ul*/
+ul {border: solid #000000 5px;}
+
+/*float, border and padding for the id "winter"*/
+#winter{ width: 200px; 
+    height: 225px; 
+    border: solid #ffffff 5px; 
+    padding:5px;
+    float: left;}
+
+/*border for dt elements*/
+dt { padding: 5px 0 5px 0;
+    border: solid #000000 2px;
+margin-left: 3px;
+position: relative;
+left: auto;
+bottom: inherit;}
+
+/*id "moodystuff*/
+#moodystuff {position: relative;
+left: 50px; 
+bottom: auto;}
+
+/* padding for any dd elements*/
+dd{padding: 5px 0 5px 0;}
+
+
+/* float for id "stump"*/
+#stump{clear: both}
+
+/* Absolute*/
+#swoop {position: absolute; left: 800px; bottom: -520px;}
+#mail {position: absolute; left:auto; bottom: auto;} 
