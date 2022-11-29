@@ -1,42 +1,68 @@
 /* background color, text color, and margin of body*/
-body {background-color: #a3a3c2; 
-    color: #000; 
+body {background-color: #ffffff; 
+    color: #33334d; 
     margin: 100px 180px 180px  180px ; 
     line-height: 150%;
 font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;}
 
 /* margin, background color, text color and height of content area*/
-h1, h2 {background-color: #d8aded; 
-    color: #000; 
+h2.index {background-color: #ffffff; 
+    color: #33334d; 
     height: 2em; 
-    width: 40%; 
-    margin: 2% 10% 2% 10%;
+    width: 40%;
+    padding: 15px 15px 0px 15px ;
+    margin: 5% 10% 0% 10%;
     z-index: 11;
+    float: left
     }
+    h1.index {background-color: #ffffff; 
+        color: #33334d; 
+        height: 2em; 
+        width: 40%;
+        padding: 15px 15px 0px 15px ;
+        margin: 5% 10% 10% 10%;
+        z-index: 11;
+        float: left
+        }
+/* CSS for h1 and h2*/
+  h1,h2  { margin: 30px 0 30px 0; }
 
-/* float for h1 and h2 with the class "index"*/
-h1.index, h2.index {float: left}
+/*CSS for pages class*/
+a.page{ padding: 5px 5px 5px 5px;
+    color:#ffffff;
+    text-decoration: none;
+}
+a.page:hover{text-decoration: underline;}
+a.page:active{color: #003300;}
+
+        
 
 /* background color for WelcomeP*/
-#WelcomeP {background-color: #e86033; 
+#WelcomeP {background-color: #996633; 
     margin-left: 10px; 
     margin-right: 10px; }
 
 /*border for WelcomeP*/
-#WelcomeP {border: solid #e86033 3px ;}
+#WelcomeP {border: solid #996633  3px ;}
+
+/*background color for form*/
+body.form{background-color: #336699; 
+    color: #000000; 
+    border: #ffffff;
+    border: 100px 180px 180px  180px ; 
+    line-height: 150%;}
 
 /*padding, width and height of content area, and background color of anything with the menu class*/
 .menu{  
-    height: 3em; 
-    background-color: #ded009; 
-    padding: 15px 0 15px 0;
-    position: fixed; right: auto; top: -10px;
+    height: 2em;
+    background-color: #003300; 
+    padding: 15px 15px 15px 15px;
+   
+    position: fixed; right: auto; top: 0;
     z-index: 5;
+    font-size: 125%;
  }
 
-/* width and padding of any paragraph with the "moody" class*/
-p.moody{width: 80%; 
-    padding: 20px 20px 20px 20px;}
 
 /*border for any ul*/
 ul {border: solid #000000 5px;}
@@ -56,17 +82,20 @@ position: relative;
 left: auto;
 bottom: inherit;}
 
-/*id "moodystuff*/
-#moodystuff {position: relative;
-left: 50px; 
-bottom: auto;}
 
 /* padding for any dd elements*/
 dd{padding: 5px 0 5px 0;}
 
 
 /* float for id "stump"*/
-#stump{clear: both}
+#stump{clear: both; 
+    position: relative;
+    left: 200px;
+}
+
+/*CSS for table*/
+table{border-collapse:collapse;}
+caption{font-weight: bold ;}
 
 /* Absolute*/
 #swoop {position: absolute; left: 800px; bottom: -520px;}
