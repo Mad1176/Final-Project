@@ -2,9 +2,58 @@
 <html lang="en">
     <head>
        <meta charset="utf-8">
-     <title>Green Woodlands</title>
+     <title>Add a Trail System</title>
+     <link rel="stylesheet" href="../css/finalproject.css"> 
     </head>
-    <body>
-        <h1>Green Woodlands</h1>
+    <body class="form">
+        <nav class="menu"><a href="../index.html" class="page">Homepage</a> <a href="../pages/ascutney.html" class="page">Ascutney Trails</a>  <a href="../pages/moodypark.html" class="page">Moody Park</a> 
+            <a href="../pages/arrowhead.html" class="page">Arrowhead Recreation Area</a>  <a href="../pages/aqueductandpeg.html" class="page">Aqueduct and Mount Peg</a> 
+              <a href="../pages/saskadena6.html" class="page">Saskadena Six</a> 
+        </nav>
+        <h1>Add a Trail System</h1>
+        <p> The Upper Valley has more trail systems than what is covered on this website. If you are a resident of the Upper Valley and 
+            feel that there is a trail network that should be included in this website, please fill out the following form, and 
+            the site administrator will review your submission and reach out to you!</p>
+            <form method="post" action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+                <p><label for="Name">Trail System Name:</label>
+                <input name="Name" id="name" type="text"></p>
+
+                <p> <label for=" home network">Is this your pirmary (Home) network?</label><br>
+                <input type="radio" id="yes" name="Home Network" value="Yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="Home Network" value="No">
+                <label for="no">No</label><br>
+                </p>
+                
+                    <fieldset>
+                        <legend>Trailhead Infastructure:</legend>
+                <label for="Infastructure">(check all that apply)</label><br>
+                <input type="checkbox" name="Infastructure" id="parking" value="Designated Parking Lot,">
+                <label for="parking">Designated Parking Lot</label><br>
+                <input type="checkbox" name="Infastructure" id="bathrooms" value="Bathroom,">
+                <label for="bathrooms">Bathrooms</label><br>
+                <input type="checkbox" name="Infastructure" id="changing" value="Changing Room,">
+                <label for="changing">Changing Rooms</label><br>
+                <input type="checkbox" name="Infastructure" id="map" value="Trail Map,">
+                <label for="map">Trail Map</label><br>
+                <input type="checkbox" name="Infastructure" id="sign" value="Trail Signs,">
+                <label for="sign">Trail Signs</label>
+                </fieldset>
+                
+                <p>
+                    <label for="Comments">Additional Information:</label><br>
+                    <textarea name="Additional Infromation" id="Additional Information" cols="90" rows="10"></textarea>
+                </p>
+
+                <p><label for="Email">Email Address:</label><br>
+                    <input name="Email" id="email" type="text"><br>
+                <label for="Submission Number">Please enter a unique number your submission can be idenified by </label><br>
+                    <input name="Submission Number" id="submission number" type="password"></p>
+ 
+                
+                <p><input type="submit" value="Submit Form"></p>
+            </form> 
+                
+            
     </body>
 </html>
