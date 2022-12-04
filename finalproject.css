@@ -27,52 +27,54 @@ h2.index {background-color: #ffffff;
 /* CSS for h1 and h2*/
   h1,h2  { margin: 30px 0 30px 0; }
 
-/*CSS for pages class*/
-a.page{ padding: 5px 5px 5px 5px;
-    color:#ffffff;
-    text-decoration: none;
-}
-a.page:hover{text-decoration: underline;}
-a.page:active{color: #003300;}
-
-        
-
-/* background color for WelcomeP*/
-#WelcomeP {background-color: #996633; 
-    margin-left: 10px; 
-    margin-right: 10px; }
-
-/*border for WelcomeP*/
-#WelcomeP {border: solid #996633  3px ;}
-
-/*background color for form*/
-body.form{background-color: #336699; 
-    color: #000000; 
-    border: #ffffff;
-    border: 100px 180px 180px  180px ; 
-    line-height: 150%;}
-
-/*padding, width and height of content area, and background color of anything with the menu class*/
+/*menu class*/
 .menu{  
-    height: 2em;
+    height: 3em;
     background-color: #003300; 
-    padding: 15px 15px 15px 15px;
+    padding: 22px 15px 15px 15px;
    
     position: fixed; right: auto; top: 0;
     z-index: 5;
     font-size: 125%;
+    background-image: url(../images/mtascutney.jpg);
+    
  }
+
+/*CSS for pages class*/
+a.page{
+    padding: 5px 5px 5px 5px;
+    color:#ffffff;
+    text-decoration: none;
+    background-color:#800000;
+    }
+
+a.page:hover{text-decoration: underline;
+background-color: transparent;}
+
+a.page:active{color: #003300;
+border: solid;
+border-color: #003300;
+border-width:  2px;}
+
+        
+
+/* background color for WelcomeP*/
+#WelcomeP {background-color: #ffffff; 
+    margin-left: 10px; 
+    margin-right: 10px; }
+
+/*border for WelcomeP*/
+#WelcomeP {border: solid #000000  3px ;}
+
+/*background color for form*/
+body.form{background-color: #336699; 
+    color: #000000; 
+    margin: 100px 180px 180px  180px ; 
+    line-height: 150%;}
 
 
 /*border for any ul*/
 ul {border: solid #000000 5px;}
-
-/*float, border and padding for the id "winter"*/
-#winter{ width: 200px; 
-    height: 225px; 
-    border: solid #ffffff 5px; 
-    padding:5px;
-    float: left;}
 
 /*border for dt elements*/
 dt { padding: 5px 0 5px 0;
@@ -87,16 +89,24 @@ bottom: inherit;}
 dd{padding: 5px 0 5px 0;}
 
 
-/* float for id "stump"*/
-#stump{clear: both; 
-    position: relative;
-    left: 200px;
-}
 
 /*CSS for table*/
 table{border-collapse:collapse;}
 caption{font-weight: bold ;}
 
-/* Absolute*/
-#swoop {position: absolute; left: 800px; bottom: -520px;}
-#mail {position: absolute; left:auto; bottom: auto;} 
+/* CSS for footer*/
+footer {position: relative;
+    bottom: -180px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+background-image: url(../images/field.jpg) ;
+color: #ffffff;}
+ 
+/* CSS for id overview*/
+#overview{margin-left: auto; margin-right: auto;}
+
+/*CSS for class trailpic*/
+div.trailpic {text-align: center;}
+
+/*CSS for td*/
+td{padding: 0 4px 0 4px;}
